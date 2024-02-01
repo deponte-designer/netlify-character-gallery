@@ -7,4 +7,11 @@ describe('<App/> component', () => {
     render(<App />);
   });
 
+
+  // it('renders CharacterGallery', () => {
+  //   const { getByText } = render(<App />);
+  //   const characterGalleryText = getByText('This is CharacterGallery components');
+  //   expect(characterGalleryText).toBeInTheDocument();
+  // });
+
 });
